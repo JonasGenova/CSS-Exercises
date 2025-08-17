@@ -5,6 +5,8 @@ body {
 
 .card {
   background-color: rgb(235, 235, 235);
+  width: 400px;
+  margin: auto;
 }
 
 h1, div {
