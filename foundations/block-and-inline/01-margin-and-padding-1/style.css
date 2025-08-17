@@ -1,28 +1,24 @@
-body {
-  max-width: 600px;
-  margin: 0 auto;
-}
+/* .one .three {
+  padding
+} */
 
 .one {
-  background: pink;
-  border: 3px solid blue;
-  /* CHANGE ME */
   padding: 32px;
   margin: 12px;
+  background-color: pink;
+  border: blue solid 3px;
 }
 
 .two {
-  background: lightblue;
-  border: 3px solid purple;
-  /* CHANGE ME */
   margin-bottom: 48px;
+  background-color: lightblue;
+  border: darkred solid 3px;
 }
 
 .three {
-  background: peachpuff;
-  border: 3px solid brown;
-  width: 200px;
-  /* CHANGE ME */
+  background-color:bisque;
+  border: red solid 3px;
+  align-content: right;
   padding: 32px;
-  margin-left: auto;
+  margin-left: 300px;
 }
