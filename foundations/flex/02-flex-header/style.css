@@ -16,7 +16,7 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin: 10px;
+  margin: 0%;
   padding: 0;
   display: flex;
   gap: 8px;
@@ -34,7 +34,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  padding: 5px;
 }
 
 
