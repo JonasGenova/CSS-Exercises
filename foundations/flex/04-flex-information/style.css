@@ -31,10 +31,12 @@ img {
 }
 /* MY SOLUTION */
 
+body {
+  text-align: center;
+}
 
 .title {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .content {
@@ -48,14 +50,7 @@ img {
 .text {
   flex-wrap: wrap;
   text-align: center;
-  flex-shrink: 1;
   max-width: 200px;
   min-width: 100px;
 }
 
-.plantata {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-}
