@@ -24,3 +24,38 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* DEBUGGING */
+*{
+  border: 1px solid red;
+}
+/* MY SOLUTION */
+
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex-wrap: wrap;
+  text-align: center;
+  flex-shrink: 1;
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.plantata {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
