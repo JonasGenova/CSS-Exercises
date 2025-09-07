@@ -17,7 +17,7 @@ body {
 
 .modal {
   background: white;
-  flex-basis: 500px;
+  width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -83,12 +83,10 @@ button.cancel {
 
 .modal {
   display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .text{
   margin-bottom: 10px;
-}
-
-.left, .center,  .right { 
-  margin: 15px 10px;
 }
